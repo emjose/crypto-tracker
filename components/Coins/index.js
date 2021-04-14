@@ -15,6 +15,7 @@ const Coins = ({
     <Link href='/coin/[id]' as={`/coin/${id}`}>
       <a>
         <div className={styles.coin_container}>
+
           <div className={styles.coin_row}>
             <div className={styles.coin}>
               <img src={image} alt={name} className={styles.coin_img} />
@@ -36,10 +37,11 @@ const Coins = ({
               )}
 
               <p className={styles.coin_marketcap}>
-                Mkt Cap: ${marketcap.toLocaleString()}
+                Market Cap: ${marketcap.toLocaleString()}
               </p>
             </div>
           </div>
+
         </div>
       </a>
     </Link>
