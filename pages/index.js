@@ -3,6 +3,7 @@ import CoinList from '../components/CoinList';
 import SearchBar from '../components/SearchBar';
 import Layout from '../components/Layout';
 
+
 export default function Home({ filteredCoins }) {
   const [search, setSearch] = useState('');
 
@@ -17,12 +18,17 @@ export default function Home({ filteredCoins }) {
   };
 
   return (
+    <><p id="top"></p>
     <Layout>
+      
       <div className='coin_app'>
         <SearchBar type='text' placeholder='Search' onChange={handleChange} />
         <CoinList filteredCoins={allCoins} />
+        <a href="#top">
+          <div className='back-to-top'>Back To Top</div>
+        </a>
       </div>
-    </Layout>
+    </Layout></>
   );
 }
 

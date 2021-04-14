@@ -53,3 +53,21 @@ body {
   height: 200px;
   width: 200px;
 }
+
+.back-to-top {
+  cursor: pointer;
+
+  font-size: 2em;
+  color: #ffffff;
+
+  text-align: center;
+
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+.back-to-top:hover {
+  color: #ff3366;
+}
