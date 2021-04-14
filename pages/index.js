@@ -1,19 +1,17 @@
 import Head from 'next/head'
 import CoinList from '../components/CoinList'
 import SearchBar from '../components/SearchBar'
+import Layout from '../components/Layout'
 // import styles from '../styles/Home.module.css'
 
 export default function Home({filteredCoins}) {
   return (
-    <div>
-      <Head>
-        <title>Crypto Tracker</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
+      <div className="coin_app"></div>
 
       <SearchBar type='text' placeholder='Search'/>
       <CoinList filteredCoins={filteredCoins}/>
-    </div>
+    </Layout>
   )
 }
 
