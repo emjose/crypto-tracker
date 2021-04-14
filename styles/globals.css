@@ -43,9 +43,12 @@ body {
   padding: 30px;
   display: flex;
   justify-content: center;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 900;
   white-space: nowrap;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
 }
 .coin_logo {
   height: 200px;
