@@ -11,7 +11,8 @@ const Layout = ({ children, title = 'Crypto Tracker' }) => {
       <header className='header'>
         <Link href='/' passHref>
           <a>
-            <svg
+              Crypto Tracker
+            {/* <svg
               width='675'
               height='375'
               viewBox='0 0 675 375'
@@ -62,7 +63,7 @@ const Layout = ({ children, title = 'Crypto Tracker' }) => {
                   <stop offset='1' stopColor='#00FFFF' />
                 </linearGradient>
               </defs>
-            </svg>
+            </svg> */}
           </a>
         </Link>
       </header>
