@@ -1,18 +1,29 @@
-import Head from 'next/head'
-import CoinList from '../components/CoinList'
-import SearchBar from '../components/SearchBar'
-import Layout from '../components/Layout'
-// import styles from '../styles/Home.module.css'
+import { useState } from 'react';
+import CoinList from '../components/CoinList';
+import SearchBar from '../components/SearchBar';
+import Layout from '../components/Layout';
 
-export default function Home({filteredCoins}) {
+export default function Home({ filteredCoins }) {
+  const [search, setSearch] = useState('');
+
+  const allCoins = filteredCoins.filter(coin =>
+    coin.name.toLowerCase().includes(search.toLowerCase())
+  );
+
+  const handleChange = e => {
+    e.preventDefault();
+
+    setSearch(e.target.value.toLowerCase());
+  };
+
   return (
     <Layout>
-      <div className="coin_app"></div>
-
-      <SearchBar type='text' placeholder='Search'/>
-      <CoinList filteredCoins={filteredCoins}/>
+      <div className='coin_app'>
+        <SearchBar type='text' placeholder='Search' onChange={handleChange} />
+        <CoinList filteredCoins={allCoins} />
+      </div>
     </Layout>
-  )
+  );
 }
 
 export const getServerSideProps = async () => {
