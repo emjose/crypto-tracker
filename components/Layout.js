@@ -12,7 +12,19 @@ const Layout = ({ children, title = 'Crypto Tracker' }) => {
         <Link href='/' passHref>
           <a>
               Crypto Tracker
-            {/* <svg
+            
+          </a>
+        </Link>
+      </header>
+      <main>{children}</main>
+    </div>
+  );
+};
+
+export default Layout;
+
+// Old Logo
+{/* <svg
               width='675'
               height='375'
               viewBox='0 0 675 375'
@@ -64,12 +76,3 @@ const Layout = ({ children, title = 'Crypto Tracker' }) => {
                 </linearGradient>
               </defs>
             </svg> */}
-          </a>
-        </Link>
-      </header>
-      <main>{children}</main>
-    </div>
-  );
-};
-
-export default Layout;
