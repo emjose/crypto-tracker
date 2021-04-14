@@ -19,4 +19,5 @@
 
 .coin_input::placeholder {
   color: #e2e2e2;
+  letter-spacing: 1px;
 }
