@@ -44,6 +44,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 4em;
+  font-weight: 900;
 }
 .coin_logo {
   height: 200px;
