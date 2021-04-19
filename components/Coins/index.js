@@ -1,6 +1,7 @@
 import styles from './Coins.module.css';
 import Link from 'next/link';
 
+
 const Coins = ({
   name,
   price,

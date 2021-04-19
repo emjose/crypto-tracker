@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout';
 import styles from './Coin.module.css';
-
+import Tilt from 'react-parallax-tilt';
 
 const Coin = ({ coin }) => {
 
@@ -9,7 +9,7 @@ const Coin = ({ coin }) => {
   return (
     <Layout>
       <div className={styles.coin_page}>
-        
+        <Tilt>
         <div className={styles.coin_container}>
           <p className={styles.coin_ticker}>{coin.symbol}</p>
           <img
@@ -23,7 +23,7 @@ const Coin = ({ coin }) => {
             ${coin.market_data.current_price.usd}
           </p>
         </div>
-        
+        </Tilt>
       </div>
     </Layout>
   );
