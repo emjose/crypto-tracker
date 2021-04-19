@@ -25,7 +25,7 @@ export default function Home({ filteredCoins }) {
         <SearchBar type='text' placeholder='Search' onChange={handleChange} />
         <CoinList filteredCoins={allCoins} />
         <a href="#top">
-          <div className='back-to-top'>Back To Top</div>
+          <div className='back-to-top'>Back to Top</div>
         </a>
       </div>
     </Layout></>

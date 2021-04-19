@@ -22,7 +22,7 @@ a {
 }
 
 body {
-  background-color: #202024;
+  background-color: #1f1f1f;
 }
 
 .coin_app {
@@ -59,16 +59,22 @@ body {
   cursor: pointer;
 
   font-size: 2em;
-  color: #ffffff;
+  color: #9e9d9d;
 
   text-align: center;
 
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .back-to-top:hover {
-  color: #ff3366;
+  color: #d633ff;
+}
+
+.header:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #d633ff;
 }
