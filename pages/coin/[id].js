@@ -2,6 +2,7 @@ import Layout from '../../components/Layout';
 import styles from './Coin.module.css';
 import Tilt from 'react-parallax-tilt';
 
+
 const Coin = ({ coin }) => {
 
 
@@ -9,20 +10,30 @@ const Coin = ({ coin }) => {
   return (
     <Layout>
       <div className={styles.coin_page}>
-        <Tilt>
+        <Tilt
+        tiltMaxAngleX={20}
+        tiltMaxAngleY={20}
+        transitionSpeed={1500}
+        scale={1.02}
+        gyroscope={true}>
+
         <div className={styles.coin_container}>
-          <p className={styles.coin_ticker}>{coin.symbol}</p>
-          <img
-            src={coin.image.large}
-            alt={coin.name}
-            className={styles.coin_image}
-          />
-          <h1 className={styles.coin_name}>{coin.name}</h1>
+
+          <div className={styles.coin_ticker}>{coin.symbol}</div>
           
-          <p className={styles.coin_current}>
+          <div>
+            <img src={coin.image.large}
+            alt={coin.name}
+            className={styles.coin_image}/>
+          </div>
+
+          <div><h1 className={styles.coin_name}>{coin.name}</h1></div>
+          
+          <div className={styles.coin_current}>
             ${coin.market_data.current_price.usd}
-          </p>
+          </div>
         </div>
+
         </Tilt>
       </div>
     </Layout>
