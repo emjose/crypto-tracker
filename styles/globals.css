@@ -22,7 +22,7 @@ a {
 }
 
 body {
-  background-color: #101012;
+  background-color: #202024;
 }
 
 .coin_app {
@@ -31,6 +31,7 @@ body {
   align-items: center;
   margin-top: 10px;
   color: #fff;
+  /* font-size: 1.05em; */
 }
 
 /* Layout CSS */
