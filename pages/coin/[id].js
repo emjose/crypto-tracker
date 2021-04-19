@@ -9,6 +9,7 @@ const Coin = ({ coin }) => {
   return (
     <Layout>
       <div className={styles.coin_page}>
+        
         <div className={styles.coin_container}>
           <p className={styles.coin_ticker}>{coin.symbol}</p>
           <img
@@ -22,6 +23,7 @@ const Coin = ({ coin }) => {
             ${coin.market_data.current_price.usd}
           </p>
         </div>
+        
       </div>
     </Layout>
   );
