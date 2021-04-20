@@ -61,7 +61,7 @@
   justify-content: space-between;
   width: 100%;
 
-  padding-right: 55px;
+  padding-right: 62px;
 }
 
 .coin_data_two {
@@ -116,15 +116,20 @@
   } */
 
   .coin_row {
-    width: 800px;
-    height: 220px;
+    width: 920px;
+    height: 200px;
     flex-wrap: wrap;
     line-height: 1.75;
   }
 
+  .coin_symbol {
+    visibility: hidden;
+  }
+
+  .coin_h1,
   .coin_data,
   .coin_data_two {
-    font-size: 1.5em;
+    font-size: 1.35em;
   }
 
   /* .coin {
