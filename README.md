@@ -14,7 +14,7 @@
 
 <br>
 
-<a href="vercel URL">![Crypto Tracker](Assets/preview-028-crypto-tracker.png)</a> 
+<a href="https://crypto-tracker-emjose.vercel.app/">![Crypto Tracker](Assets/preview-028-crypto-tracker.png)</a> 
 
 #
 
@@ -34,12 +34,12 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-### Day 28: April 2021
-- text
+### Day 28: April 20, 2021
+- I'm continuing to learn <a href="https://nextjs.org/">Next.js</a>, which is excellent for static site generation with dynamic data.
+
+- With cryptocurrency and NFTs (Non-fungible tokens) in the news, I watched a <a href="https://youtu.be/Kff_KRvpxj4">YouTube tutorial</a> on how to create a cryptocurrency tracker with Next.js.
   
-- text
-  
-- text
+- The Crypto Tracker uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to track the first 100 cryptocurrencies ranked by market cap.
 
 #
 
@@ -51,18 +51,29 @@
 ``` 
 git clone git@github.com:emjose/crypto-tracker.git && cd crypto-tracker 
 ```
-#### Run the command:
+#### Install dependencies:
 ```
-open index.html
+npm install
 ```
+#### Run the development server:
+```
+npm run dev
+```
+#### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the Crypto Tracker app.
 
 #
 
 <p id="live-site"><p>
 
-<a href="vercel URL">![Live Site](Assets/inter-live-site.png)</a>
+<a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
-<a href="vercel URL">![Live Site](Assets/***project-number***-***gif-name***.gif)</a>
+<a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
+
+The Crypto Tracker is responsive, and it can display and search through the first <a href="https://www.coingecko.com/en">100 cryptocurrencies</a>.
+<br>
+<br>
+<a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
+The individual coin pages use tilt hover effects from the <a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a> npm package.
 
 #
 
@@ -70,13 +81,21 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-- #### [***alt-text***](***URL***)  
+- #### [CoinGecko](https://www.coingecko.com/en)
 
-- #### [***alt-text***](***URL***)  
+- #### [React-Parallax-Tilt](https://www.npmjs.com/package/react-parallax-tilt)
 
-- #### [***alt-text***](***URL***)  
+- #### [React-Parallax-Tilt on Github](https://github.com/mkosir/react-parallax-tilt)
 
-- #### [***alt-text***](***URL***)  
+- #### [Crypto Tracker logo created with Adobe Photoshop](https://www.adobe.com/products/photoshop.html) 
+  
+- #### [Next.js on Github](https://github.com/vercel/next.js/) 
+
+- #### [Learn about Next.js](https://nextjs.org/docs)  
+
+- #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)
+
+- #### [Next.js Cryptocurrency Tracker Tutorial](https://youtu.be/Kff_KRvpxj4) by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
 
 - #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
 
