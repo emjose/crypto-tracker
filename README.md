@@ -68,8 +68,7 @@ npm run dev
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
-
-The Crypto Tracker is responsive, and it can display and search through the first <a href="https://www.coingecko.com/en">100 cryptocurrencies</a>.
+The Crypto Tracker is responsive, and it can display and search through the first <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
 <br>
 <br>
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
