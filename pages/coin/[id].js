@@ -5,7 +5,9 @@ import Tilt from 'react-parallax-tilt';
 
 const Coin = ({ coin }) => {
   return (
+    
     <Layout>
+
       <div className={styles.coin_page}>
         <Tilt
         tiltMaxAngleX={20}
@@ -30,20 +32,21 @@ const Coin = ({ coin }) => {
             ${coin.market_data.current_price.usd}
           </div>
         </div>
-
         </Tilt>
       </div>
+
     </Layout>
+
   );
 };
 
 export default Coin;
 
 export async function getServerSideProps(context) {
+  
   const { id } = context.query;
 
-  const res = await fetch(`https://api.coingecko.com/api/v3/coins/${id}
-  `);
+  const res = await fetch(`https://api.coingecko.com/api/v3/coins/${id}`);
 
   const data = await res.json();
 
@@ -52,4 +55,5 @@ export async function getServerSideProps(context) {
       coin: data
     }
   };
+
 }

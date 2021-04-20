@@ -1,7 +1,6 @@
 .coin_container {
   display: flex;
   justify-content: center;
-  /* font-size: 1.1em; */
 }
 
 .coin_row {
@@ -12,22 +11,21 @@
   height: 90px;
   width: 1100px;
   padding: 0rem 2rem;
-  /* padding: 20px; */
   margin-bottom: 22px;
   border-radius: 8px;
   background: #4643477e;
-  /* box-shadow: 0 8px 32px 0 rgba(8, 7, 10, 0.37);
-  backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px); */
-
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
 .coin_row:hover {
-  background: #dd33ff9a;
+  background: rgb(145, 2, 196);
+  background: linear-gradient(
+    322deg,
+    rgba(145, 2, 196, 1) 0%,
+    rgba(84, 87, 215, 1) 56%,
+    rgb(22, 190, 209) 100%
+  );
   transform: scale(1.02);
   border-radius: 8px;
-  /* font-weight: bold; */
   transition: 0.5s;
 }
 
@@ -57,8 +55,6 @@
 .coin {
   display: flex;
   align-items: center;
-
-  /* justify-content: space-between; */
   padding-right: 24px;
 }
 
@@ -84,20 +80,15 @@
 }
 
 .coin_price {
-  /* width: 110px; */
   text-align: left;
 }
 
 .coin_volume {
-  /* width: 155px; */
   text-align: left;
-  /* letter-spacing: 0.5px; */
 }
 
 .coin_marketcap {
   width: 240px;
-
-  /* letter-spacing: 0.5px; */
 }
 
 .coin_percent {
@@ -127,7 +118,6 @@
     width: 650px;
     height: 210px;
     font-size: 0.7em;
-
     flex-wrap: wrap;
     line-height: 1.5;
     font-family: "Poppins", sans-serif;
@@ -140,19 +130,18 @@
 
   .coin {
     padding-top: 20px;
-    padding-left: calc(37%);
+    padding-left: calc(36%);
     padding-bottom: 24px;
     width: 100%;
   }
 
   .coin_h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 600;
     font-family: "Helvetica Neue", sans-serif;
   }
 
   .coin_row:hover {
-    transform: scale(1);
     font-weight: normal;
   }
 
@@ -211,8 +200,8 @@
   }
 
   .coin_img {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
   }
 
   .coin_h1 {
@@ -226,16 +215,15 @@
 
   .coin_data,
   .coin_data_two {
-    font-size: 1.35em;
+    font-size: 1.45em;
+    padding-left: 10px;
   }
 
   .coin_data {
-    padding-left: 10px;
     padding-right: 10px;
   }
 
   .coin_data_two {
-    padding-left: 10px;
     padding-top: 5px;
     margin-bottom: 10px;
   }

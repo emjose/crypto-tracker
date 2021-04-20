@@ -21,8 +21,6 @@ a {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: "Montserrat", sans-serif; */
-  /* color: #fff; */
 }
 
 body {
@@ -35,10 +33,8 @@ body {
   align-items: center;
   margin-top: 10px;
   color: #fff;
-  /* font-size: 1.05em; */
 }
 
-/* Layout CSS */
 .layout {
   height: 100%;
   width: 100%;
@@ -52,15 +48,8 @@ body {
   font-weight: 900;
   margin-top: 20px;
   margin-bottom: 5px;
-  /* white-space: nowrap;
-  font-family: "Helvetica Neue", sans-serif; */
   text-transform: uppercase;
 }
-
-/* .coin_logo {
-  height: 200px;
-  width: 200px;
-} */
 
 .logo {
   width: 14.5em;
@@ -70,6 +59,7 @@ body {
   cursor: pointer;
   font-size: 2em;
   color: #9e9d9d;
+
   text-align: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -84,12 +74,6 @@ body {
   color: #d633ff;
 }
 
-.header:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  color: #d633ff;
-}
-
 @media (max-width: 1125px) {
   .logo {
     width: 8.6em;
@@ -101,15 +85,3 @@ body {
     width: 4.6em;
   }
 }
-
-/* @media (max-width: 700px) {
-  .logo {
-    width: 7em;
-  }
-}
-
-@media (max-width: 600px) {
-  .logo {
-    width: 6em;
-  }
-} */

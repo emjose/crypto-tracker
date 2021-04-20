@@ -3,6 +3,7 @@ import Coins from './Coins';
 export default function CoinList({ filteredCoins }) {
   return (
     <>
+      
       {filteredCoins.map(coin => {
         return (
           <Coins
@@ -18,6 +19,8 @@ export default function CoinList({ filteredCoins }) {
           />
         );
       })}
+    
     </>
   );
+
 }
