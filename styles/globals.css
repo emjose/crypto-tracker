@@ -13,12 +13,16 @@ a {
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
+  /* font-family: "Montserrat", sans-serif; */
+  /* color: #fff; */
 }
 
 body {
@@ -48,31 +52,18 @@ body {
   font-weight: 900;
   margin-top: 20px;
   margin-bottom: 5px;
-  white-space: nowrap;
-  font-family: "Helvetica Neue", sans-serif;
+  /* white-space: nowrap;
+  font-family: "Helvetica Neue", sans-serif; */
   text-transform: uppercase;
 }
-.coin_logo {
+
+/* .coin_logo {
   height: 200px;
   width: 200px;
-}
+} */
 
 .logo {
   width: 14.5em;
-}
-
-.overlay {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    325deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-}
-
-.logo:hover {
-  color: red;
 }
 
 .back-to-top {
@@ -98,23 +89,17 @@ body {
 
 @media (max-width: 1125px) {
   .logo {
-    width: 12em;
-  }
-}
-
-@media (max-width: 1000px) {
-  .logo {
-    width: 11em;
-  }
-}
-
-@media (max-width: 800px) {
-  .logo {
-    width: 9em;
+    width: 8.6em;
   }
 }
 
 @media (max-width: 700px) {
+  .logo {
+    width: 4.6em;
+  }
+}
+
+/* @media (max-width: 700px) {
   .logo {
     width: 7em;
   }
@@ -124,4 +109,4 @@ body {
   .logo {
     width: 6em;
   }
-}
+} */

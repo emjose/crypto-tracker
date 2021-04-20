@@ -27,9 +27,8 @@
   background: #dd33ff9a;
   transform: scale(1.02);
   border-radius: 8px;
-  font-weight: bold;
+  /* font-weight: bold; */
   transition: 0.5s;
-  color: #e511f8;
 }
 
 .coin_img {
@@ -113,50 +112,101 @@
 }
 
 @media (max-width: 1125px) {
-  /* .coin_marketcap {
-    visibility: hidden;
-  } */
-
   .coin_row {
-    width: 920px;
-    height: 240px;
+    width: 650px;
+    height: 210px;
+    font-size: 0.7em;
+
     flex-wrap: wrap;
     line-height: 1.5;
-  }
-
-  .coin_img {
-    height: 70px;
-    width: 70px;
-  }
-
-  .coin {
-    padding-top: 20px;
-    padding-left: calc(38.5%);
-    padding-bottom: 20px;
-    width: 100%;
-  }
-
-  .coin_data {
-    text-align: left;
-    padding-right: 70px;
-    letter-spacing: 2px;
-  }
-  .coin_data_two {
-    padding-top: 10px;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-  }
-
-  .coin_h1 {
-    font-size: 1.9em;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.3px;
   }
 
   .coin_symbol {
     visibility: hidden;
   }
 
+  .coin {
+    padding-top: 20px;
+    padding-left: calc(37%);
+    padding-bottom: 24px;
+    width: 100%;
+  }
+
+  .coin_h1 {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: "Helvetica Neue", sans-serif;
+  }
+
+  .coin_row:hover {
+    transform: scale(1);
+    font-weight: normal;
+  }
+
+  .coin_data_two {
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+  }
+
   .coin_data,
   .coin_data_two {
-    font-size: 1.2em;
+    font-size: 1.75em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: rgb(184, 184, 184);
+  }
+
+  .coin_price {
+    color: rgb(255, 255, 255);
+    text-align: right;
+  }
+
+  .coin_data {
+    padding-left: 20px;
+    padding-right: 65px;
+  }
+
+  .coin {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .coin_img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .coin_marketcap {
+    color: rgb(94, 94, 94);
+  }
+
+  .coin_row:hover .coin_marketcap,
+  .coin_row:hover .coin_volume,
+  .coin_row:hover .coin_price,
+  .coin_row:hover .green,
+  .coin_row:hover .red {
+    color: rgb(234, 202, 247);
+  }
+}
+
+@media (max-width: 700px) {
+  .coin_row {
+    width: 350px;
+    height: 160px;
+  }
+
+  .coin {
+    padding-left: calc(25%);
+  }
+
+  .coin_data,
+  .coin_data_two {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1.25em;
   }
 }
