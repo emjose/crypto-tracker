@@ -32,12 +32,6 @@
   color: #e511f8;
 }
 
-.coin {
-  display: flex;
-  align-items: center;
-  padding-right: 24px;
-}
-
 .coin_img {
   height: 30px;
   width: 30px;
@@ -55,11 +49,19 @@
   width: 60px;
 }
 
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
 .coin_data {
   display: flex;
   text-align: left;
   justify-content: space-between;
   width: 100%;
+
+  padding-right: 55px;
 }
 
 .coin_data_two {
@@ -70,12 +72,13 @@
 }
 
 .coin_price {
-  width: 110px;
+  /* width: 110px; */
   text-align: left;
 }
 
 .coin_volume {
-  width: 155px;
+  /* width: 155px; */
+  text-align: left;
   /* letter-spacing: 0.5px; */
 }
 
@@ -113,14 +116,20 @@
   } */
 
   .coin_row {
-    width: 900px;
-    height: 110px;
+    width: 800px;
+    height: 220px;
     flex-wrap: wrap;
+    line-height: 1.75;
   }
 
-  .coin {
-    align-items: right;
+  .coin_data,
+  .coin_data_two {
+    font-size: 1.5em;
   }
+
+  /* .coin {
+    align-items: right;
+  } */
 
   /* .coin_data {
     display: flex;
