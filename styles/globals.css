@@ -96,7 +96,7 @@ body {
   color: #d633ff;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1125px) {
   .logo {
     width: 12em;
   }
@@ -104,7 +104,7 @@ body {
 
 @media (max-width: 1000px) {
   .logo {
-    width: 10em;
+    width: 11em;
   }
 }
 

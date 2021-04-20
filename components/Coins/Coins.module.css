@@ -62,6 +62,13 @@
   width: 100%;
 }
 
+.coin_data_two {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .coin_price {
   width: 110px;
   text-align: left;
@@ -74,6 +81,7 @@
 
 .coin_marketcap {
   width: 240px;
+
   /* letter-spacing: 0.5px; */
 }
 
@@ -97,4 +105,28 @@
 
 .coin_row:hover .green {
   color: white;
+}
+
+@media (max-width: 1125px) {
+  /* .coin_marketcap {
+    visibility: hidden;
+  } */
+
+  .coin_row {
+    width: 900px;
+    height: 110px;
+    flex-wrap: wrap;
+  }
+
+  .coin {
+    align-items: right;
+  }
+
+  /* .coin_data {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    justify-content: space-between;
+    width: 100%;
+  } */
 }
