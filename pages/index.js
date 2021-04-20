@@ -45,4 +45,4 @@ export const getServerSideProps = async () => {
 }
 
 
-// Emmanuel Jose logo and favicon. © Emmanuel Jose. All Rights Reserved.
+// Emmanuel Jose logo, Crypto Tracker logo, and favicon. © Emmanuel Jose. All Rights Reserved.

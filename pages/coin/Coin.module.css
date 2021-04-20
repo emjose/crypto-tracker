@@ -53,3 +53,28 @@
   margin-bottom: 1rem;
   font-size: 2rem;
 }
+
+@media (max-width: 700px) {
+  .coin_container {
+    width: 320px;
+    height: 420px;
+    font-size: 0.7em;
+  }
+
+  .coin_page {
+    margin-top: -20px;
+  }
+
+  .coin_image {
+    margin-bottom: 1rem;
+    width: 180px;
+  }
+
+  .coin-ticker {
+    top: 10%;
+  }
+
+  .coin_current {
+    font-size: 1.85em;
+  }
+}

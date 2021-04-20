@@ -6,20 +6,21 @@
 }
 
 .coin_input {
-  background: #464347;
+  background: #514e52;
   border: none;
   padding: 16px;
   border-radius: 4px;
   outline: none;
   height: 50px;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: white;
   font-size: 1.25em;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.85px;
 }
 
 .coin_input::placeholder {
-  color: #888787;
+  color: #a3a3a3;
   letter-spacing: 0.75px;
 }
 
