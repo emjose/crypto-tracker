@@ -3,7 +3,7 @@
 <table><tr>
 <td> <a href="https://github.com/emjose/news-site/#header"><img src="Assets/header-left.png" alt="previous" style="width: 200px;"/></a> </td>
 <td> <a href="https://github.com/emjose/one-hundred/#header"><img src="Assets/header-center.png" alt="100 days of code" style="width: 580px;"/></a> </td>
-<td> <a href=#header><img src="Assets/header-right-g.png" alt="next" style="width: 200px;"/></a> </td>. 
+<td> <a href=#header><img src="Assets/header-right-g.png" alt="next" style="width: 200px;"/></a> </td> 
 </tr></table>
 
 <br>
@@ -68,7 +68,7 @@ npm run dev
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
-The Crypto Tracker is responsive, and it can display and search through the first <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
+The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the first <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
 <br>
 <br>
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
