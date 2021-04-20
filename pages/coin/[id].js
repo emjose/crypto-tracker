@@ -4,9 +4,6 @@ import Tilt from 'react-parallax-tilt';
 
 
 const Coin = ({ coin }) => {
-
-
-
   return (
     <Layout>
       <div className={styles.coin_page}>

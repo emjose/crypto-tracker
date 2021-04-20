@@ -3,6 +3,7 @@
   justify-content: center;
   height: 75vh;
   align-items: center;
+  margin-top: -30px;
 }
 
 .coin_container {
@@ -42,6 +43,8 @@
 
 .coin_ticker {
   margin-bottom: 1rem;
+  font-size: 2em;
+  font-weight: 600;
   text-transform: uppercase;
 }
 

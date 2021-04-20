@@ -46,6 +46,8 @@ body {
   justify-content: center;
   font-size: 5em;
   font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 5px;
   white-space: nowrap;
   font-family: "Helvetica Neue", sans-serif;
   text-transform: uppercase;
@@ -55,14 +57,29 @@ body {
   width: 200px;
 }
 
+.logo {
+  width: 14em;
+}
+
+.overlay {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    325deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.logo:hover {
+  color: red;
+}
+
 .back-to-top {
   cursor: pointer;
-
   font-size: 2em;
   color: #9e9d9d;
-
   text-align: center;
-
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-top: 15px;
@@ -77,4 +94,34 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #d633ff;
+}
+
+@media (max-width: 1100px) {
+  .logo {
+    width: 12em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 10em;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 9em;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 7em;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 6em;
+  }
 }

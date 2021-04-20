@@ -11,8 +11,7 @@ const Layout = ({ children, title = 'Crypto Tracker' }) => {
       <header className='header'>
         <Link href='/' passHref>
           <a>
-              Crypto Tracker
-            
+              <img className='logo' src="/ct-logo.png"/> 
           </a>
         </Link>
       </header>
