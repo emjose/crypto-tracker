@@ -68,3 +68,11 @@
     font-size: 1.85em;
   }
 }
+
+@media (max-width: 400px) {
+  .coin_container {
+    width: 300px;
+    height: 400px;
+    font-size: 0.6em;
+  }
+}

@@ -232,3 +232,73 @@
     visibility: hidden;
   }
 }
+
+@media (max-width: 400px) {
+  .coin_row {
+    width: 300px;
+    height: 130px;
+  }
+
+  .coin_img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .coin_h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+
+  .coin {
+    padding-top: 10px;
+    padding-left: calc(25%);
+    padding-bottom: 6px;
+  }
+
+  .coin_data,
+  .coin_data_two {
+    font-size: 1.15em;
+    padding-left: 10px;
+  }
+
+  .coin_data {
+    padding-right: 6px;
+  }
+
+  .coin_data_two {
+    padding-top: 0px;
+    margin-bottom: 1px;
+  }
+}
+
+@media (max-width: 300px) {
+  .coin_row {
+    width: 250px;
+    height: 110px;
+  }
+
+  .coin_img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .coin {
+    padding-top: 6px;
+    padding-left: calc(25%);
+    padding-bottom: 2px;
+  }
+
+  .coin_data,
+  .coin_data_two {
+    font-size: 01em;
+    padding-left: 2px;
+  }
+
+  .coin_data {
+    padding-right: 2px;
+  }
+
+  .coin_data_two {
+    margin-bottom: -10px;
+  }
+}

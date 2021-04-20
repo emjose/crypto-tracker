@@ -23,3 +23,32 @@
   color: #a3a3a3;
   letter-spacing: 0.75px;
 }
+
+@media (max-width: 1125px) {
+  .coin_search {
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .coin_search {
+    margin-top: -2px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .coin_search {
+    margin-top: -45px;
+    margin-bottom: 40px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .coin_search {
+    margin-top: -45px;
+    margin-bottom: 40px;
+    width: 250px;
+  }
+}
