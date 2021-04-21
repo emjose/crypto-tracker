@@ -72,7 +72,7 @@ The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko
 <br>
 <br>
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
-The individual coin pages use tilt hover effects from the <a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a> npm package.
+The individual coin pages use a tilt hover effect from the <a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a> npm package.
 
 #
 
