@@ -34,12 +34,12 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-### Day 28: April 20, 2021
+### Day 28: April 21, 2021
 - I'm continuing to learn <a href="https://nextjs.org/">Next.js</a>, which is excellent for static site generation with dynamic data.
 
 - With cryptocurrency and NFTs (Non-fungible tokens) in the news, I watched a <a href="https://youtu.be/Kff_KRvpxj4">YouTube tutorial</a> on how to create a cryptocurrency tracker with Next.js.
   
-- The Crypto Tracker uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to track the first 100 cryptocurrencies ranked by market cap.
+- The Crypto Tracker uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to track the top 100 cryptocurrencies ranked by market cap.
 
 #
 
@@ -68,7 +68,7 @@ npm run dev
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
-The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the first <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
+The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
 <br>
 <br>
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
