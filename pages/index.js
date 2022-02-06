@@ -2,6 +2,7 @@ import { useState } from "react";
 import CoinList from "../components/CoinList";
 import SearchBar from "../components/SearchBar";
 import Layout from "../components/Layout";
+import ScrollButton from "../components/ScrollButton";
 
 export default function Home({ filteredCoins }) {
 	const [search, setSearch] = useState("");
@@ -16,15 +17,17 @@ export default function Home({ filteredCoins }) {
 
 	return (
 		<>
-			<p id="top"></p>
+			{/* <p id="top"></p> */}
 
 			<Layout>
 				<div className="coin_app">
 					<SearchBar type="text" placeholder="Search" onChange={handleChange} />
+
 					<CoinList filteredCoins={allCoins} />
-					<a href="#top">
+					<ScrollButton scrollPoint={100} />
+					{/* <a href="#top">
 						<div className="back-to-top">Back to Top</div>
-					</a>
+					</a> */}
 				</div>
 			</Layout>
 		</>

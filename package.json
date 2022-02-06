@@ -11,6 +11,8 @@
     "next": "^11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-parallax-tilt": "^1.5.4"
+    "react-icons": "^4.3.1",
+    "react-parallax-tilt": "^1.5.4",
+    "styled-components": "^5.3.3"
   }
 }

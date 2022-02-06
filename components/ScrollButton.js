@@ -1,31 +1,36 @@
-// import { useEffect, useState } from "react";
-// import styles from "../styles/ScrollButton.module.css";
+import { useState, useEffect } from "react";
+import { FaArrowCircleUp } from "react-icons/fa";
+import { Button } from "./Styles";
 
-// export const ScrollButton = () => {
-// 	const [showButton, setShowButton] = useState(false);
+const ScrollButton = ({ scrollPoint }) => {
+	const [visible, setVisible] = useState(false);
 
-// 	useEffect(() => {
-// 		window.addEventListener("scroll", () => {
-// 			if (window.pageYOffset > 300) {
-// 				setShowButton(true);
-// 			} else {
-// 				setShowButton(false);
-// 			}
-// 		});
-// 	}, []);
+	useEffect(() => {
+		window.addEventListener("scroll", toggleVisible);
+		return () => window.removeEventListener("scroll", toggleVisible);
+	});
 
-// 	const scrollToTop = () => {
-// 		window.scrollTo({
-// 			top: 0,
-// 			behavior: "smooth",
-// 		});
-// 	};
+	const toggleVisible = () => {
+		const scrolled = document.documentElement.scrollTop;
+		if (scrolled > scrollPoint) {
+			setVisible(true);
+		} else if (scrolled <= scrollPoint) {
+			setVisible(false);
+		}
+	};
 
-// 	return (
-// 		showButton && (
-// 			<button className={styles.ScrollButton} onClick={scrollToTop} className="back-to-top">
-// 				&#8679;
-// 			</button>
-// 		)
-// 	);
-// };
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		});
+	};
+
+	return (
+		<Button>
+			<FaArrowCircleUp onClick={scrollToTop} style={{ display: visible ? "inline" : "none" }} />
+		</Button>
+	);
+};
+
+export default ScrollButton;
