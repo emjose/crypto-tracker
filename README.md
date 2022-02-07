@@ -13,36 +13,36 @@
 
 <p id="project-title"><p>
 
-<a href=#table-of-contents>![Crypto Tracker](Assets/inter-028-crypto-tracker.png)</a> 
+<a href=#table-of-contents>![Crypto Tracker](Assets/inter-028-crypto-tracker.png)</a>
 
 <br>
 
-<a href="https://crypto-tracker-emjose.vercel.app/">![Crypto Tracker](Assets/preview-028-crypto-tracker.png)</a> 
+<a href="https://crypto-tracker-emjose.vercel.app/">![Crypto Tracker](Assets/preview-028-crypto-tracker.png)</a>
 
 #
 
 <p id="table-of-contents"><p>
 
-<a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>  
+<a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>
 
-- [100 Days of Code](#100days)
-- [Installation](#installation) 
-- [Live Site](#live-site)
-- [Resources](#resources)
-- [Let's Connect!](#lets-connect) 
+-   [100 Days of Code](#100days)
+-   [Installation](#installation)
+-   [Live Site](#live-site)
+-   [Resources](#resources)
+-   [Let's Connect!](#lets-connect)
 
 #
 
 <p id="100days"><p>
 
-<a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
+<a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>
 
 ### Day 28: April 21, 2021
-- I'm continuing to learn <a href="https://nextjs.org/">Next.js</a>, which is excellent for static site generation with dynamic data.
 
-- With cryptocurrency and NFTs (Non-fungible tokens) in the news, I watched a <a href="https://youtu.be/Kff_KRvpxj4">YouTube tutorial</a> on how to create a cryptocurrency tracker with Next.js.
-  
-- The Crypto Tracker uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to track the top 100 cryptocurrencies ranked by market cap.
+-   I'm continuing to learn <a href="https://nextjs.org/">Next.js</a>, which is excellent for static site generation with dynamic data.
+
+-   With cryptocurrency and NFTs (Non-fungible tokens) in the news, I watched a <a href="https://youtu.be/Kff_KRvpxj4">YouTube tutorial</a> on how to create a cryptocurrency tracker with Next.js.
+-   The Crypto Tracker uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to track the top 100 cryptocurrencies ranked by market cap.
 
 #
 
@@ -51,17 +51,23 @@
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
 #### Git clone and cd into the repo folder:
-``` 
-git clone git@github.com:emjose/crypto-tracker.git && cd crypto-tracker 
+
 ```
+git clone git@github.com:emjose/crypto-tracker.git && cd crypto-tracker
+```
+
 #### Install dependencies:
+
 ```
 npm install
 ```
+
 #### Run the development server:
+
 ```
 npm run dev
 ```
+
 #### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the Crypto Tracker app.
 
 #
@@ -81,25 +87,29 @@ The individual coin pages use a tilt hover effect from the <a href="https://www.
 
 <p id="resources"><p>
 
-<a href=#resources>![Resources](Assets/inter-resources.png)</a>  
+<a href=#resources>![Resources](Assets/inter-resources.png)</a>
 
-- #### [CoinGecko](https://www.coingecko.com/en)
+-   #### [CoinGecko](https://www.coingecko.com/en)
 
-- #### [React-Parallax-Tilt](https://www.npmjs.com/package/react-parallax-tilt)
+-   #### [React Icons](https://react-icons.github.io/react-icons)
 
-- #### [React-Parallax-Tilt on Github](https://github.com/mkosir/react-parallax-tilt)
+-   #### [Next.js on Github](https://github.com/vercel/next.js/)
 
-- #### [Crypto Tracker logo created with Adobe Photoshop](https://www.adobe.com/products/photoshop.html) 
-  
-- #### [Next.js on Github](https://github.com/vercel/next.js/) 
+-   #### [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 
-- #### [Learn about Next.js](https://nextjs.org/docs)  
+-   #### [React-Parallax-Tilt](https://www.npmjs.com/package/react-parallax-tilt)
 
-- #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)
+-   #### [Learn about Next.js](https://nextjs.org/docs)
 
-- #### [Next.js Cryptocurrency Tracker Tutorial](https://youtu.be/Kff_KRvpxj4) by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
+-   #### [React Scroll to Top Button](https://www.geeksforgeeks.org/how-to-create-a-scroll-to-top-button-in-react-js/)
 
-- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+-   #### [React-Parallax-Tilt on Github](https://github.com/mkosir/react-parallax-tilt)
+
+-   #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)
+
+-   #### [Next.js Cryptocurrency Tracker Tutorial](https://youtu.be/Kff_KRvpxj4) by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
+
+-   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
 #
 
@@ -111,13 +121,7 @@ The individual coin pages use a tilt hover effect from the <a href="https://www.
 
 #
 
-<a href=#header>![Back to Top](Assets/inter-congrats.png)</a> 
-
-
-
-
-
-
+<a href=#header>![Back to Top](Assets/inter-congrats.png)</a>
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
