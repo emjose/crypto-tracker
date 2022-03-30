@@ -9,7 +9,7 @@ const Layout = ({ children, title = "Crypto Tracker" }) => {
 				<title>{title}</title>
 				<meta charset="UTF-8" />
 				<meta property="og:title" content="Crypto Tracker" />
-				<meta property="og:image" content="/meta-028-crypto.png" />
+				<meta property="og:image" content="https://crypto-tracker-emjose.vercel.app/meta-028-crypto.png" />
 				<meta
 					property="og:image:alt"
 					content="A card with the Bitcoin logo and the cryptocurrency price. Click to visit website."
