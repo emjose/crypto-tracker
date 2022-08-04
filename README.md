@@ -50,19 +50,19 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/crypto-tracker.git && cd crypto-tracker
 ```
 
 #### Install dependencies:
 
-```
+```console
 npm install
 ```
 
 #### Run the development server:
 
-```
+```console
 npm run dev
 ```
 
@@ -75,10 +75,15 @@ npm run dev
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
+
 The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
+
+#
+
 <br>
-<br>
+
 <a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
+
 The individual coin pages use a tilt hover effect from the <a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a> npm package.
 
 #
