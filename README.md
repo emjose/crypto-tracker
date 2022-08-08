@@ -48,25 +48,25 @@
 
 <a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
 
-#### Git clone and cd into the repo folder:
+#### 1. Git clone and cd into the repo folder:
 
 ```console
 git clone git@github.com:emjose/crypto-tracker.git && cd crypto-tracker
 ```
 
-#### Install dependencies:
+#### 2. Install dependencies:
 
 ```console
 npm install
 ```
 
-#### Run the development server:
+#### 3. Run the development server:
 
 ```console
 npm run dev
 ```
 
-#### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the Crypto Tracker app.
+#### 4. Open [http://localhost:3000](http://localhost:3000) with your browser to launch the Crypto Tracker app.
 
 #
 
