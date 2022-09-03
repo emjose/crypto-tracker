@@ -1,90 +1,85 @@
 .coin_page {
-  display: flex;
-  justify-content: center;
-  height: 75vh;
-  align-items: center;
-  margin-top: -30px;
-  color: white;
+	display: flex;
+	justify-content: center;
+	height: 75vh;
+	align-items: center;
+	margin-top: -30px;
+	color: white;
 }
 
 .coin_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  padding: 4rem;
-  width: 400px;
-  background: rgb(145, 2, 196);
-  background: linear-gradient(
-    322deg,
-    rgba(145, 2, 196, 1) 0%,
-    rgba(84, 87, 215, 1) 56%,
-    rgba(60, 234, 255, 1) 100%
-  );
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	padding: 4rem;
+	width: 400px;
+	background: rgb(145, 2, 196);
+	background: linear-gradient(322deg, rgba(145, 2, 196, 1) 0%, rgba(84, 87, 215, 1) 56%, rgba(60, 234, 255, 1) 100%);
 }
 
 .coin_image {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .coin_name {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .coin_ticker {
-  margin-bottom: 1rem;
-  font-size: 2em;
-  font-weight: 600;
-  text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-size: 2em;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .coin_current {
-  margin-bottom: 1rem;
-  font-size: 2rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
 }
 
 @media (max-width: 700px) {
-  .coin_container {
-    width: 320px;
-    height: 420px;
-    font-size: 0.7em;
-  }
+	.coin_container {
+		width: 320px;
+		height: 420px;
+		font-size: 0.7em;
+	}
 
-  .coin_page {
-    margin-top: -20px;
-  }
+	.coin_page {
+		margin-top: -20px;
+	}
 
-  .coin_image {
-    margin-bottom: 1rem;
-    width: 180px;
-  }
+	.coin_image {
+		margin-bottom: 1rem;
+		width: 180px;
+	}
 
-  .coin-ticker {
-    top: 10%;
-  }
+	.coin-ticker {
+		top: 10%;
+	}
 
-  .coin_current {
-    font-size: 1.85em;
-  }
+	.coin_current {
+		font-size: 1.85em;
+	}
 }
 
 @media (max-width: 400px) {
-  .coin_container {
-    width: 300px;
-    height: 400px;
-    font-size: 0.6em;
-  }
+	.coin_container {
+		width: 300px;
+		height: 400px;
+		font-size: 0.6em;
+	}
 }
 
 @media (max-width: 300px) {
-  .coin_container {
-    width: 250px;
-    height: 350px;
-    font-size: 0.5em;
-  }
+	.coin_container {
+		width: 250px;
+		height: 350px;
+		font-size: 0.5em;
+	}
 
-  .coin_image {
-    width: 150px;
-  }
+	.coin_image {
+		width: 150px;
+	}
 }

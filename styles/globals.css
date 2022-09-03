@@ -47,15 +47,21 @@ body {
 	margin-top: 20px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
+	vertical-align: middle;
 }
+
+/* .header a {
+	padding: 0;
+} */
 
 .logo {
 	width: 14.5em;
 	aspect-ratio: auto;
 	/* height: 100%; */
+	margin-top: 16px;
 }
 
-.header:focus-within .logo {
+.header a:focus {
 	outline: 4px solid white;
 	outline-offset: 6px;
 }
@@ -81,7 +87,6 @@ body {
 
 :focus {
 	outline: none;
-	border: none;
 }
 
 @media (max-width: 1125px) {

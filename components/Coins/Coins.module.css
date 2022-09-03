@@ -16,20 +16,17 @@
 	background: #272628;
 }
 
-.coin_row:hover,
-.coin_row:focus {
+/* coin_row focus must be stated as ":focus .coin_row" to work, and global css :focus must be disabled. Need to investigate why. */
+
+:focus .coin_row,
+.coin_row:hover {
 	outline: none;
 	cursor: pointer;
 	background: rgb(145, 2, 196);
 	background: linear-gradient(322deg, rgba(145, 2, 196, 1) 0%, rgba(84, 87, 215, 1) 56%, rgb(22, 190, 209) 100%);
 	transform: scale(1.02);
 	border-radius: 8px;
-	transition: 0.5s;
-}
-
-.coin_row:focus {
-	outline: 4px solid white;
-	outline-offset: 6px;
+	transition: 0.3s;
 }
 
 .coin_img {
