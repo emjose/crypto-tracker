@@ -5,7 +5,7 @@
 
 .coin_row {
 	display: flex;
-	flex-direction: row;
+	/* flex-direction: row; */
 	justify-content: flex-start;
 	align-items: center;
 	height: 90px;
@@ -13,11 +13,11 @@
 	padding: 0rem 2rem;
 	margin-bottom: 22px;
 	border-radius: 8px;
-	background: #4643477e;
+	background: #272628;
 }
 
-.coin_row:focus,
-.coin_row:hover {
+.coin_row:hover,
+.coin_row:focus {
 	outline: none;
 	cursor: pointer;
 	background: rgb(145, 2, 196);
@@ -27,9 +27,15 @@
 	transition: 0.5s;
 }
 
+.coin_row:focus {
+	outline: 4px solid white;
+	outline-offset: 6px;
+}
+
 .coin_img {
 	height: 30px;
-	width: 30px;
+	/* width: 100%; */
+	aspect-ratio: auto;
 	margin-right: 10px;
 }
 
@@ -94,8 +100,10 @@
 }
 
 .red {
-	color: #f00606;
+	/* color: #f00606; */
+	color: #ff6e6e;
 	letter-spacing: 1px;
+	font-weight: 300;
 }
 
 .coin_row:hover .red {
@@ -175,11 +183,11 @@
 
 	.coin_img {
 		height: 50px;
-		width: 50px;
+		/* width: 50px; */
 	}
 
 	.coin_marketcap {
-		color: rgb(94, 94, 94);
+		color: rgb(155, 155, 155);
 	}
 
 	.coin_row:hover .coin_marketcap,
@@ -199,7 +207,7 @@
 
 	.coin_img {
 		height: 40px;
-		width: 40px;
+		/* width: 40px; */
 	}
 
 	.coin_h1 {
@@ -239,7 +247,7 @@
 
 	.coin_img {
 		height: 30px;
-		width: 30px;
+		/* width: 30px; */
 	}
 
 	.coin_h1 {
@@ -277,7 +285,7 @@
 
 	.coin_img {
 		height: 20px;
-		width: 20px;
+		/* width: 20px; */
 	}
 
 	.coin {

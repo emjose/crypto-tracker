@@ -20,6 +20,7 @@
 	fill: #fff;
 }
 
+.svg:focus .arm,
 .svg:hover .arm {
 	animation: wave 560ms ease-in-out;
 }

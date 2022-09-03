@@ -51,6 +51,13 @@ body {
 
 .logo {
 	width: 14.5em;
+	aspect-ratio: auto;
+	/* height: 100%; */
+}
+
+.header:focus-within .logo {
+	outline: 4px solid white;
+	outline-offset: 6px;
 }
 
 .back-to-top {
@@ -70,6 +77,11 @@ body {
 
 .back-to-top:hover {
 	color: #d633ff;
+}
+
+:focus {
+	outline: none;
+	border: none;
 }
 
 @media (max-width: 1125px) {

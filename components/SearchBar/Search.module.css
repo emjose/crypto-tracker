@@ -1,54 +1,59 @@
 .coin_search {
-  margin-bottom: 64px;
-  display: flex;
-  align-items: center;
-  width: 350px;
+	margin-bottom: 64px;
+	display: flex;
+	align-items: center;
+	width: 350px;
 }
 
 .coin_input {
-  background: #514e52;
-  border: none;
-  padding: 16px;
-  border-radius: 4px;
-  outline: none;
-  height: 50px;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  font-size: 1.25em;
-  letter-spacing: 0.85px;
+	background: #514e52;
+	border: none;
+	padding: 16px;
+	border-radius: 4px;
+	outline: none;
+	height: 50px;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	color: white;
+	font-size: 1.25em;
+	letter-spacing: 0.85px;
 }
 
 .coin_input::placeholder {
-  color: #a3a3a3;
-  letter-spacing: 0.75px;
+	color: #a3a3a3;
+	letter-spacing: 0.75px;
+}
+
+.coin_input:focus {
+	outline: 2px solid white;
+	outline-offset: 6px;
 }
 
 @media (max-width: 1125px) {
-  .coin_search {
-    margin-top: -15px;
-  }
+	.coin_search {
+		margin-top: -15px;
+	}
 }
 
 @media (max-width: 700px) {
-  .coin_search {
-    margin-top: -2px;
-    margin-bottom: 50px;
-  }
+	.coin_search {
+		margin-top: -2px;
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 400px) {
-  .coin_search {
-    margin-top: -45px;
-    margin-bottom: 40px;
-    width: 300px;
-  }
+	.coin_search {
+		margin-top: -45px;
+		margin-bottom: 40px;
+		width: 300px;
+	}
 }
 
 @media (max-width: 300px) {
-  .coin_search {
-    margin-top: -45px;
-    margin-bottom: 40px;
-    width: 250px;
-  }
+	.coin_search {
+		margin-top: -45px;
+		margin-bottom: 40px;
+		width: 250px;
+	}
 }

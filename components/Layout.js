@@ -7,7 +7,7 @@ const Layout = ({ children, title = "Crypto Tracker" }) => {
 		<div className="layout">
 			<Head>
 				<title>{title}</title>
-				<meta charset="UTF-8" />
+				<meta charSet="UTF-8" />
 				<meta property="og:title" content="Crypto Tracker" />
 				<meta property="og:image" content="https://crypto-tracker-emjose.vercel.app/meta-028-crypto.png" />
 				<meta
