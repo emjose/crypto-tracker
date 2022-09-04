@@ -18,6 +18,8 @@ const Layout = ({ children, title = "Crypto Tracker" }) => {
 				<meta property="og:url" content="https://crypto-tracker-emjose.vercel.app/" />
 				<meta property="og:type" content="website" />
 				<meta name="twitter:card" content="summary" />
+				<meta name="description" content="A cryptocurrency price tracking app. Click to visit website." />
+				<meta name="theme-color" content="#1F1E1E" />
 				<meta
 					name="keywords"
 					content="HTML, CSS, JavaScript, Next.js, crypto tracker, cryptocurrency, bitcoin"
