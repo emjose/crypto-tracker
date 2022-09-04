@@ -5,7 +5,7 @@
 
 .coin_row {
 	display: flex;
-	/* flex-direction: row; */
+	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	height: 90px;
@@ -28,6 +28,8 @@
 	border-radius: 8px;
 	transition: 0.3s;
 }
+
+/* Aspect ratio enabled and width disabled to address aspect ratio error in lighthouse reports. */
 
 .coin_img {
 	height: 30px;
@@ -204,7 +206,6 @@
 
 	.coin_img {
 		height: 40px;
-		/* width: 40px; */
 	}
 
 	.coin_h1 {
@@ -244,7 +245,6 @@
 
 	.coin_img {
 		height: 30px;
-		/* width: 30px; */
 	}
 
 	.coin_h1 {
@@ -282,7 +282,6 @@
 
 	.coin_img {
 		height: 20px;
-		/* width: 20px; */
 	}
 
 	.coin {
