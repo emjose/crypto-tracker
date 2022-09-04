@@ -1,4 +1,4 @@
-var CACHE_NAME = "global-metrics-cache-v1";
+var CACHE_NAME = "crypto-tracker-cache-v1";
 var urlsToCache = ["/"];
 
 self.addEventListener("install", function (event) {
