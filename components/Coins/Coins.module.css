@@ -13,7 +13,7 @@
 	padding: 0rem 2rem;
 	margin-bottom: 22px;
 	border-radius: 8px;
-	background: #272628;
+	background: var(--row-background);
 }
 
 /* coin_row focus must be stated as ":focus .coin_row" to work, and global css :focus must be disabled. Need to investigate why. */
@@ -22,8 +22,8 @@
 .coin_row:hover {
 	outline: none;
 	cursor: pointer;
-	background: rgb(145, 2, 196);
-	background: linear-gradient(322deg, rgba(145, 2, 196, 1) 0%, rgba(84, 87, 215, 1) 56%, rgb(22, 190, 209) 100%);
+	background: var(--coin-background);
+	background: var(--gradient-1);
 	transform: scale(1.02);
 	border-radius: 8px;
 	transition: 0.3s;
@@ -41,10 +41,16 @@
 .coin_h1 {
 	font-size: 1.25em;
 	width: 160px;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: var(--helvetica);
 	font-weight: 500;
 	letter-spacing: 1px;
-	color: #dfdfdf;
+	color: var(--coin-title);
+}
+
+.coin_symbol,
+.coin_data,
+.coin_data_two {
+	color: var(--data-color-1);
 }
 
 .coin_symbol {
@@ -52,7 +58,6 @@
 	text-align: left;
 	width: 60px;
 	padding-left: 6px;
-	color: rgb(202, 202, 202);
 }
 
 .coin {
@@ -61,31 +66,21 @@
 	padding-right: 24px;
 }
 
-.coin_data {
-	display: flex;
-	text-align: left;
-	justify-content: space-between;
-	font-size: 1.05em;
-	width: 100%;
-	font-family: "Poppins", sans-serif;
-	padding-right: 70px;
-	color: rgb(202, 202, 202);
-}
-
+.coin_data,
 .coin_data_two {
+	font-family: var(--poppins);
 	display: flex;
 	text-align: left;
 	justify-content: space-between;
 	font-size: 1.05em;
-	font-family: "Poppins", sans-serif;
 	width: 100%;
-	color: rgb(202, 202, 202);
 }
 
-.coin_price {
-	text-align: left;
+.coin_data {
+	padding-right: 70px;
 }
 
+.coin_price,
 .coin_volume {
 	text-align: left;
 }
@@ -99,23 +94,19 @@
 }
 
 .red {
-	/* color: #f00606; */
-	color: #ff6e6e;
+	color: var(--red);
 	letter-spacing: 1px;
 	font-weight: 300;
 }
 
-.coin_row:hover .red {
-	color: white;
-}
-
 .green {
-	color: #13c783;
+	color: var(--green);
 	letter-spacing: 1px;
 }
 
+.coin_row:hover .red,
 .coin_row:hover .green {
-	color: white;
+	color: var(--white);
 }
 
 @media (max-width: 1125px) {
@@ -125,7 +116,7 @@
 		font-size: 0.7em;
 		flex-wrap: wrap;
 		line-height: 1.5;
-		font-family: "Poppins", sans-serif;
+		font-family: var(--poppins);
 		letter-spacing: 1.3px;
 	}
 
@@ -143,7 +134,7 @@
 	.coin_h1 {
 		font-size: 1.8em;
 		font-weight: 600;
-		font-family: "Helvetica Neue", sans-serif;
+		font-family: var(--helvetica);
 	}
 
 	.coin_row:hover {
@@ -160,13 +151,13 @@
 	.coin_data,
 	.coin_data_two {
 		font-size: 1.75em;
-		font-family: "Poppins", sans-serif;
+		font-family: var(--poppins);
 		font-weight: 400;
-		color: rgb(184, 184, 184);
+		color: var(--data-color-2);
 	}
 
 	.coin_price {
-		color: rgb(255, 255, 255);
+		color: var(--data-color-3);
 		text-align: right;
 	}
 
@@ -186,7 +177,7 @@
 	}
 
 	.coin_marketcap {
-		color: rgb(155, 155, 155);
+		color: var(--data-color-4);
 	}
 
 	.coin_row:hover .coin_marketcap,
@@ -194,7 +185,7 @@
 	.coin_row:hover .coin_price,
 	.coin_row:hover .green,
 	.coin_row:hover .red {
-		color: rgb(234, 202, 247);
+		color: var(--data-hover);
 	}
 }
 

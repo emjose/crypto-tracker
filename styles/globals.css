@@ -1,12 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
 
+:root {
+	--body-color: #1f1e1e;
+	--coin-title: #dfdfdf;
+	--data-color-1: rgb(202, 202, 202);
+	--data-color-2: rgb(184, 184, 184);
+	--data-color-3: rgb(255, 255, 255);
+	--data-color-4: rgb(155, 155, 155);
+	--data-hover: rgb(234, 202, 247);
+	--placeholder: #a3a3a3;
+	--input-color: #514e52;
+	--white: #fff;
+	--red: #ff6e6e;
+	--green: #13c783;
+	--github-focus: rgb(193, 0, 193);
+	--row-background: #272628;
+	--coin-background: rgb(145, 2, 196);
+	--gradient-1: linear-gradient(322deg, rgba(145, 2, 196, 1) 0%, rgba(84, 87, 215, 1) 56%, rgb(22, 190, 209) 100%);
+	--gradient-2: linear-gradient(
+		322deg,
+		rgba(145, 2, 196, 1) 0%,
+		rgba(84, 87, 215, 1) 56%,
+		rgba(60, 234, 255, 1) 100%
+	);
+	--helvetica: "Helvetica Neue", sans-serif;
+	--poppins: "Poppins", sans-serif;
+	--default: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
+}
+
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-		Helvetica Neue, sans-serif;
+	font-family: var(--default);
 }
 
 a {
@@ -21,7 +49,7 @@ a {
 }
 
 body {
-	background-color: #1f1e1e;
+	background-color: var(--body-color);
 }
 
 .coin_app {
@@ -29,7 +57,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 10px;
-	color: #fff;
+	color: var(--white);
 }
 
 .layout {
@@ -50,10 +78,6 @@ body {
 	vertical-align: middle;
 }
 
-/* .header a {
-	padding: 0;
-} */
-
 .logo {
 	width: 14.5em;
 	aspect-ratio: auto;
@@ -62,27 +86,8 @@ body {
 }
 
 .header a:focus {
-	outline: 4px solid white;
+	outline: 4px solid var(--white);
 	outline-offset: 6px;
-}
-
-.back-to-top {
-	cursor: pointer;
-	font-size: 2em;
-	color: #9e9d9d;
-
-	text-align: center;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	padding-top: 15px;
-	margin-bottom: 50px;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-family: "Helvetica Neue", sans-serif;
-}
-
-.back-to-top:hover {
-	color: #d633ff;
 }
 
 :focus {

@@ -4,7 +4,7 @@
 	height: 75vh;
 	align-items: center;
 	margin-top: -30px;
-	color: white;
+	color: var(--white);
 }
 
 .coin_container {
@@ -15,8 +15,8 @@
 	border-radius: 20px;
 	padding: 4rem;
 	width: 400px;
-	background: rgb(145, 2, 196);
-	background: linear-gradient(322deg, rgba(145, 2, 196, 1) 0%, rgba(84, 87, 215, 1) 56%, rgba(60, 234, 255, 1) 100%);
+	background: var(--coin-background);
+	background: var(--gradient-2);
 }
 
 .coin_image {

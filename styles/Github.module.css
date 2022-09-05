@@ -13,15 +13,15 @@
 
 .arm,
 .octoBody {
-	fill: 1F1E1E;
+	fill: var(--body-color);
 }
 
 .ribbonBackground {
-	fill: #fff;
+	fill: var(--white);
 }
 
 .svg:focus-within .ribbonBackground {
-	fill: rgb(193, 0, 193);
+	fill: var(--github-focus);
 	outline: none;
 }
 

@@ -11,23 +11,16 @@ export default function Home({ filteredCoins }) {
 
 	const handleChange = (e) => {
 		e.preventDefault();
-
 		setSearch(e.target.value.toLowerCase());
 	};
 
 	return (
 		<>
-			{/* <p id="top"></p> */}
-
 			<Layout>
 				<div className="coin_app">
 					<SearchBar type="text" placeholder="Search" onChange={handleChange} />
-
 					<CoinList filteredCoins={allCoins} />
 					<ScrollButton scrollPoint={100} />
-					{/* <a href="#top">
-						<div className="back-to-top">Back to Top</div>
-					</a> */}
 				</div>
 			</Layout>
 		</>
