@@ -29,6 +29,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -41,6 +43,8 @@
 
 -   With cryptocurrency and NFTs (Non-fungible tokens) in the news, I watched a <a href="https://youtu.be/Kff_KRvpxj4">YouTube tutorial</a> on how to create a cryptocurrency tracker with Next.js.
 -   The Crypto Tracker uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to track the top 100 cryptocurrencies ranked by market cap.
+
+<br>
 
 #
 
@@ -68,6 +72,8 @@ npm run dev
 
 #### 4. Open [http://localhost:3000](http://localhost:3000) with your browser to launch the Crypto Tracker app.
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -76,7 +82,9 @@ npm run dev
 
 <a href="https://crypto-tracker-zeta.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
 
-The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
+• The **[Crypto Tracker](https://crypto-tracker-zeta.vercel.app/)** is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
+
+• The **[Crypto Tracker](https://crypto-tracker-zeta.vercel.app/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 #
 
@@ -85,6 +93,8 @@ The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko
 <a href="https://crypto-tracker-zeta.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
 
 The individual coin pages use a tilt hover effect from the <a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a> npm package.
+
+<br>
 
 #
 
@@ -113,6 +123,8 @@ The individual coin pages use a tilt hover effect from the <a href="https://www.
 -   #### [Next.js Cryptocurrency Tracker Tutorial](https://youtu.be/Kff_KRvpxj4) by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
