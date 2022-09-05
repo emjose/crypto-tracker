@@ -33,7 +33,7 @@
 	"background_color": "#1F1E1E",
 	"display": "standalone",
 	"lang": "en-US",
-	"id": "https://crypto-tracker-emjose.vercel.app/",
+	"id": "https://crypto-tracker-zeta.vercel.app/",
 	"start_url": "/",
 	"scope": "/",
 	"description": "A cryptocurrency price tracking app."

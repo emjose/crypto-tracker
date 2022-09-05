@@ -15,7 +15,7 @@
 
 <br>
 
-<a href="https://crypto-tracker-emjose.vercel.app/">![Crypto Tracker](Assets/preview-028-crypto-tracker.png)</a>
+<a href="https://crypto-tracker-zeta.vercel.app/">![Crypto Tracker](Assets/preview-028-crypto-tracker.png)</a>
 
 #
 
@@ -72,9 +72,9 @@ npm run dev
 
 <p id="live-site"><p>
 
-<a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://crypto-tracker-zeta.vercel.app/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
-<a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
+<a href="https://crypto-tracker-zeta.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
 
 The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
 
@@ -82,7 +82,7 @@ The Crypto Tracker is responsive, and it uses the <a href="https://www.coingecko
 
 <br>
 
-<a href="https://crypto-tracker-emjose.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
+<a href="https://crypto-tracker-zeta.vercel.app/">![Live Site](Assets/028-crypto-b.gif)</a>
 
 The individual coin pages use a tilt hover effect from the <a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a> npm package.
 
