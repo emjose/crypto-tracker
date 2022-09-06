@@ -82,7 +82,9 @@ npm run dev
 
 <a href="https://crypto-tracker-zeta.vercel.app/">![Live Site](Assets/028-crypto-a.gif)</a>
 
-• The **[Crypto Tracker](https://crypto-tracker-zeta.vercel.app/)** is responsive, and it uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to display and search through the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
+• The **[Crypto Tracker](https://crypto-tracker-zeta.vercel.app/)** is responsive and keyboard-navigable.
+
+• The **[Crypto Tracker](https://crypto-tracker-zeta.vercel.app/)** uses the <a href="https://www.coingecko.com/en">CoinGecko API</a> to render the top <a href="https://www.coingecko.com/en">100 cryptocurrencies</a> ranked by market cap.
 
 • The **[Crypto Tracker](https://crypto-tracker-zeta.vercel.app/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
